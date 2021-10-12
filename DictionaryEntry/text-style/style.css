@@ -1,0 +1,19 @@
+h1 {
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+.cloud {
+  color: lightseagreen;
+}
+
+h2 {
+  text-align: center;
+  background-color: rebeccapurple;
+  color: white;
+}
+h3 {
+  text-align: end;
+  background-color: rgb(204, 124, 238);
+  color: darkslateblue;
+}
