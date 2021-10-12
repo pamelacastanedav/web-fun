@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.search {
+  color: aqua;
+  border-color: aqua;
+  border-radius: 39%;
+  width: 130px;
+}
+.plus {
+  color: azure;
+  background-color: mediumspringgreen;
+  border-radius: 50%;
+  border-color: mediumspringgreen;
+  width: 45px;
+}
+.account {
+  color: white;
+  background-color: blue;
+  box-shadow: 5px 3px black;
+}
+.btn {
+  margin: 5px 40px;
+  padding: 10px;
+}
