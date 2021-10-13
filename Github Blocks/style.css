@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 1000px;
+  padding: 20px;
+
+  background-color: rgb(184, 68, 107);
+}
+h {
+  color: lightseagreen;
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.girlcats {
+  background-color: palevioletred;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nightcats {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cutecats {
+  align-items: center;
+  background-color: lightseagreen;
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+img {
+  width: 200px;
+  margin: 20px;
+}
+
+p {
+  text-align: center;
+}
