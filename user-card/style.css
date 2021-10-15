@@ -1,0 +1,21 @@
+#container {
+  height: 300px;
+  width: 500px;
+  background-color: white;
+  border-color: blue;
+}
+.top {
+  background-color: teal;
+  height: 70px;
+  width: 500px;
+}
+
+img {
+  height: 20px;
+}
+.profile {
+  height: 70px;
+  position: relative;
+  top: 20px;
+  left: 46px;
+}

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 1000px;
+  min-height: 400px;
+}
+.nav-bar {
+  display: flex;
+  background-color: grey;
+  text-align: center;
+  justify-content: center;
+}
+.btn {
+  background-color: rgb(32, 144, 148);
+}
+a,
+h1 {
+  padding-right: 20px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: white;
+}
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+.btn {
+  margin-left: 100px;
+}
+#body {
+  display: flex;
+}
+.user {
+  position: relative;
+  left: 60px;
+  top: 25px;
+  height: 77px;
+}
+img {
+  height: 50px;
+}
+.gear {
+  height: 20px;
+}
+.top-of-card {
+  background-color: rgb(32, 144, 148);
+  width: 400px;
+  margin: 50px;
+}
+.card {
+  margin: 50px;
+  border-color: black;
+  font-size: 20px;
+}
+
+.education,
+.connect,
+.uconnect {
+  background-color: grey;
+  height: 50px;
+  margin-left: 30px;
+  margin-bottom: 25px;
+  border-color: grey;
+  border-style: solid;
+}
+
+.education,
+.left {
+  font-size: 17px;
+}
+.text-lighter {
+  color: grey;
+}
+
+.right {
+  margin-top: 51px;
+}
+.uconnect {
+}
+.content {
+  margin-left: 30px;
+}
+.viewmore {
+  margin-top: 10px;
+}
+.uconnect {
+  margin-top: 30px;
+}
