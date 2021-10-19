@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+}
+
+.nav-bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: grey;
+}
+h1 {
+  margin-left: 60px;
+}
+
+.box {
+  margin-right: 400px;
+}
+#logBtn {
+  background-color: blue;
+  box-shadow: 5px 3px 3px black;
+}
+
+.left {
+  border-style: solid;
+  border-color: grey;
+  width: 400px;
+  margin-bottom: 50px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.left,
+.boxTwo {
+  display: flex;
+  border-style: solid;
+  color: grey;
+  display: flex;
+  width: 250px;
+  height: 150px;
+  padding: 40px;
+  margin-top: 30px;
+}
+.title {
+  font-size: 60px;
+}
+.text {
+  padding-top: 30px;
+  margin-left: 10px;
+}
+.defBtn {
+  margin-top: 30px;
+}
+#body {
+  display: flex;
+}

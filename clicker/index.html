@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Button-clicker</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="nav-bar">
+        <h1>Dojonary</h1>
+        <div>
+          <input class="box" type="text" placeholder="Search.." />
+          <button id="logBtn" name="logOff" onclick="logOut(this)">
+            Log In
+          </button>
+        </div>
+      </div>
+      <div id="body">
+        <div class="left">
+          <div class="boxOne">
+            <div>
+              <p class="title">ninja</p>
+              <p>noun</p>
+              <p>Plural ninjas</p>
+              <button
+                class="like"
+                name="button-one"
+                onclick="clickFunction(this)"
+              >
+                Likes
+              </button>
+            </div>
+
+            <div>
+              <p class="text">
+                A practitioner skilled in the <a href="x">Japanese</a> art of
+                <a href="x">ninjutsu</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="boxTwo">
+            <div>
+              <p class="title">ninja</p>
+              <p>noun</p>
+              <p>Plural ninjas</p>
+              <button
+                class="like"
+                name="button-two"
+                onclick="clickFunction(this)"
+              >
+                Likes
+              </button>
+            </div>
+
+            <div>
+              <p>
+                A <a href="x">programmer</a> who breaks down problems with
+                <a href="x">zen</a> -like focus
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div>
+            <p>Dojonary is defined by <stron>YOU</stron></p>
+            <button id="defBtn" onclick="remove(this)">Add defenition</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+.nav-bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: grey;
+}
+h1 {
+  margin-left: 60px;
+}
+
+.box {
+  margin-right: 400px;
+}
+#logBtn {
+  background-color: blue;
+  box-shadow: 5px 3px 3px black;
+}
+#body {
+  display: flex;
+}
+
+.boxOne,
+.boxTwo,
+.right {
+  display: flex;
+  border-style: solid;
+  border-color: grey;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+.right {
+  width: 300px;
+  height: 180px;
+  margin-left: 20px;
+}
+.like {
+  background-color: yellow;
+  box-shadow: 10px, 5px, 5px black;
+}
+.title {
+  font-size: 30px;
+}
+#defBtn {
+  background-color: greenyellow;
+  box-shadow: 10px, 5px, 5px black;
+}
